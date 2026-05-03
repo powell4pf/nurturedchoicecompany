@@ -23,7 +23,7 @@ const DB = {
     { id: 'H500',  category: 'honey',        name: 'Pure Honey 500g',           icon: '🍯', price: 700,  size: '500g',  variety: null },
     { id: 'H1KG',  category: 'honey',        name: 'Pure Honey 1kg',            icon: '🍯', price: 1300, size: '1kg',   variety: null },
     // Peanut Butter — Smooth
-    { id: 'PBS150', category: 'peanut_butter', name: 'Peanut Butter Smooth 150g', icon: '🥜', price: 150,  size: '150g',  variety: 'smooth' },
+    { id: 'PBS150', category: 'peanut_butter', name: 'Sweetnut Peanut Butter Smooth 150g', icon: '🥜', price: 150,  size: '150g',  variety: 'smooth' },
     { id: 'PBS250', category: 'peanut_butter', name: 'Peanut Butter Smooth 250g', icon: '🥜', price: 230,  size: '250g',  variety: 'smooth' },
     { id: 'PBS400', category: 'peanut_butter', name: 'Peanut Butter Smooth 400g', icon: '🥜', price: 360,  size: '400g',  variety: 'smooth' },
     { id: 'PBS800', category: 'peanut_butter', name: 'Peanut Butter Smooth 800g', icon: '🥜', price: 680,  size: '800g',  variety: 'smooth' },
