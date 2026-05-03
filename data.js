@@ -198,7 +198,7 @@ const DB = {
   const customers = [
     { name: 'Cleanshelf Supermarket',  phone: '0712345678', email: 'wanjiku@store.co.ke',  address: 'Westlands, Nairobi' },
     { name: 'Muhindi Mweusi Supermarket',    phone: '0723456789', email: 'info@kamau.co.ke',      address: 'Ngong Road, Nairobi' },
-    { name: 'Friendly 5 Supermarket',  phone: '0734567890', email: 'njeri@organic.co.ke',   address: 'Karen, Nairobi' },
+    { name: 'Friendly 5 Supermarket',  phone: '0734567890', email: 'njeri@organic.co.ke',   address: 'Parklands, Nairobi' },
     { name: 'Luckymart Supermarket',    phone: '0745678901', email: 'omondi@fresh.co.ke',    address: 'Kisumu CBD' },
     { name: 'Gravity Supermarket',    phone: '0756789012', email: 'aisha@health.co.ke',    address: 'Mombasa Road' },
   ];
