@@ -33,9 +33,9 @@ const DB = {
     { id: 'PBC400', category: 'peanut_butter', name: 'Sweetnut Peanut Butter Crunchy 400g', icon: '🥜', price: 360,  size: '400g',  variety: 'crunchy' },
     { id: 'PBC800', category: 'peanut_butter', name: 'Sweetnut Peanut Butter Crunchy 800g', icon: '🥜', price: 680,  size: '800g',  variety: 'crunchy' },
     // Peanuts
-    { id: 'PN50',  category: 'peanuts',      name: 'Roasted Peanuts 50g',       icon: '🫘', price: 60,   size: '50g',   variety: null },
-    { id: 'PN100', category: 'peanuts',      name: 'Roasted Peanuts 100g',      icon: '🫘', price: 110,  size: '100g',  variety: null },
-    { id: 'PN200', category: 'peanuts',      name: 'Roasted Peanuts 200g',      icon: '🫘', price: 200,  size: '200g',  variety: null },
+    { id: 'PN50',  category: 'peanuts',      name: 'Sweetnut Roasted Peanuts 50g',       icon: '🫘', price: 60,   size: '50g',   variety: null },
+    { id: 'PN100', category: 'peanuts',      name: 'Sweetnut Roasted Peanuts 100g',      icon: '🫘', price: 110,  size: '100g',  variety: null },
+    { id: 'PN200', category: 'peanuts',      name: 'Sweetnut Roasted Peanuts 200g',      icon: '🫘', price: 200,  size: '200g',  variety: null },
   ],
 
   getProduct(id) { return this.PRODUCTS.find(p => p.id === id); },
