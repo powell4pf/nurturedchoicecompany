@@ -196,11 +196,11 @@ const DB = {
 (function seedDemo() {
   if (DB.getCustomers().length > 0) return;
   const customers = [
-    { name: 'CLEANSHELF SUPERMARKET',  phone: '0712345678', email: 'wanjiku@store.co.ke',  address: 'Westlands, Nairobi' },
-    { name: 'MUHINDI MWEUSI SUPERMARKET',    phone: '0723456789', email: 'info@kamau.co.ke',      address: 'Ngong Road, Nairobi' },
-    { name: 'FRIENDLY 5 SUPERMARKET',  phone: '0734567890', email: 'njeri@organic.co.ke',   address: 'Karen, Nairobi' },
-    { name: 'LUCKYMART SUPERMARKET',    phone: '0745678901', email: 'omondi@fresh.co.ke',    address: 'Kisumu CBD' },
-    { name: 'GRAVITY SUPERMARKET',    phone: '0756789012', email: 'aisha@health.co.ke',    address: 'Mombasa Road' },
+    { name: 'Cleanshelf Supermarket',  phone: '0712345678', email: 'wanjiku@store.co.ke',  address: 'Westlands, Nairobi' },
+    { name: 'Muhindi Mweusi Supermarket',    phone: '0723456789', email: 'info@kamau.co.ke',      address: 'Ngong Road, Nairobi' },
+    { name: 'Friendly 5 Supermarket',  phone: '0734567890', email: 'njeri@organic.co.ke',   address: 'Karen, Nairobi' },
+    { name: 'Luckymart Supermarket',    phone: '0745678901', email: 'omondi@fresh.co.ke',    address: 'Kisumu CBD' },
+    { name: 'Gravity Supermarket',    phone: '0756789012', email: 'aisha@health.co.ke',    address: 'Mombasa Road' },
   ];
   customers.forEach(c => DB.addCustomer(c));
 
