@@ -17,21 +17,21 @@ const DB = {
   // ---- Products Catalog ----
   PRODUCTS: [
     // Honey
-    { id: 'H100',  category: 'honey',        name: 'Pure Honey 100g',           icon: '🍯', price: 180,  size: '100g',  variety: null },
-    { id: 'H200',  category: 'honey',        name: 'Pure Honey 200g',           icon: '🍯', price: 320,  size: '200g',  variety: null },
-    { id: 'H300',  category: 'honey',        name: 'Pure Honey 300g',           icon: '🍯', price: 450,  size: '300g',  variety: null },
-    { id: 'H500',  category: 'honey',        name: 'Pure Honey 500g',           icon: '🍯', price: 700,  size: '500g',  variety: null },
-    { id: 'H1KG',  category: 'honey',        name: 'Pure Honey 1kg',            icon: '🍯', price: 1300, size: '1kg',   variety: null },
+    { id: 'H100',  category: 'honey',        name: 'Quick Health Pure Honey 100g',           icon: '🍯', price: 180,  size: '100g',  variety: null },
+    { id: 'H200',  category: 'honey',        name: 'Quick Health Pure Honey 200g',           icon: '🍯', price: 320,  size: '200g',  variety: null },
+    { id: 'H300',  category: 'honey',        name: 'Quick Health Pure Honey 300g',           icon: '🍯', price: 450,  size: '300g',  variety: null },
+    { id: 'H500',  category: 'honey',        name: 'Quick Health Pure Honey 500g',           icon: '🍯', price: 700,  size: '500g',  variety: null },
+    { id: 'H1KG',  category: 'honey',        name: 'Quick Health Pure Honey 1kg',            icon: '🍯', price: 1300, size: '1kg',   variety: null },
     // Peanut Butter — Smooth
     { id: 'PBS150', category: 'peanut_butter', name: 'Sweetnut Peanut Butter Smooth 150g', icon: '🥜', price: 150,  size: '150g',  variety: 'smooth' },
-    { id: 'PBS250', category: 'peanut_butter', name: 'Peanut Butter Smooth 250g', icon: '🥜', price: 230,  size: '250g',  variety: 'smooth' },
-    { id: 'PBS400', category: 'peanut_butter', name: 'Peanut Butter Smooth 400g', icon: '🥜', price: 360,  size: '400g',  variety: 'smooth' },
-    { id: 'PBS800', category: 'peanut_butter', name: 'Peanut Butter Smooth 800g', icon: '🥜', price: 680,  size: '800g',  variety: 'smooth' },
+    { id: 'PBS250', category: 'peanut_butter', name: 'Sweetnut Peanut Butter Smooth 250g', icon: '🥜', price: 230,  size: '250g',  variety: 'smooth' },
+    { id: 'PBS400', category: 'peanut_butter', name: 'Sweetnut Peanut Butter Smooth 400g', icon: '🥜', price: 360,  size: '400g',  variety: 'smooth' },
+    { id: 'PBS800', category: 'peanut_butter', name: 'Sweetnut Peanut Butter Smooth 800g', icon: '🥜', price: 680,  size: '800g',  variety: 'smooth' },
     // Peanut Butter — Crunchy
-    { id: 'PBC150', category: 'peanut_butter', name: 'Peanut Butter Crunchy 150g', icon: '🥜', price: 150,  size: '150g',  variety: 'crunchy' },
-    { id: 'PBC250', category: 'peanut_butter', name: 'Peanut Butter Crunchy 250g', icon: '🥜', price: 230,  size: '250g',  variety: 'crunchy' },
-    { id: 'PBC400', category: 'peanut_butter', name: 'Peanut Butter Crunchy 400g', icon: '🥜', price: 360,  size: '400g',  variety: 'crunchy' },
-    { id: 'PBC800', category: 'peanut_butter', name: 'Peanut Butter Crunchy 800g', icon: '🥜', price: 680,  size: '800g',  variety: 'crunchy' },
+    { id: 'PBC150', category: 'peanut_butter', name: 'Sweetnut Peanut Butter Crunchy 150g', icon: '🥜', price: 150,  size: '150g',  variety: 'crunchy' },
+    { id: 'PBC250', category: 'peanut_butter', name: 'Sweetnut Peanut Butter Crunchy 250g', icon: '🥜', price: 230,  size: '250g',  variety: 'crunchy' },
+    { id: 'PBC400', category: 'peanut_butter', name: 'Sweetnut Peanut Butter Crunchy 400g', icon: '🥜', price: 360,  size: '400g',  variety: 'crunchy' },
+    { id: 'PBC800', category: 'peanut_butter', name: 'Sweetnut Peanut Butter Crunchy 800g', icon: '🥜', price: 680,  size: '800g',  variety: 'crunchy' },
     // Peanuts
     { id: 'PN50',  category: 'peanuts',      name: 'Roasted Peanuts 50g',       icon: '🫘', price: 60,   size: '50g',   variety: null },
     { id: 'PN100', category: 'peanuts',      name: 'Roasted Peanuts 100g',      icon: '🫘', price: 110,  size: '100g',  variety: null },
