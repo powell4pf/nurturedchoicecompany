@@ -19,8 +19,10 @@ const DB = {
     // Honey
     { id: 'H100',  category: 'honey',        name: 'Quick Health Pure Honey 100g',           icon: '🍯', price: 180,  size: '100g',  variety: null },
     { id: 'H200',  category: 'honey',        name: 'Quick Health Pure Honey 200g',           icon: '🍯', price: 320,  size: '200g',  variety: null },
-    { id: 'H300',  category: 'honey',        name: 'Quick Health Pure Honey 300g',           icon: '🍯', price: 450,  size: '300g',  variety: null },
-    { id: 'H500',  category: 'honey',        name: 'Quick Health Pure Honey 500g',           icon: '🍯', price: 700,  size: '500g',  variety: null },
+    { id: 'H300r',  category: 'honey',        name: 'Quick Health Pure Honey 300g Roundjar',           icon: '🍯', price: 450,  size: '300g',  variety: null },
+    { id: 'H300s',  category: 'honey',        name: 'Quick Health Pure Honey 300g Squeezejar',           icon: '🍯', price: 450,  size: '300g',  variety: null },
+    { id: 'H500r',  category: 'honey',        name: 'Quick Health Pure Honey 500g Roundjar',           icon: '🍯', price: 700,  size: '500g',  variety: null },
+    { id: 'H500s',  category: 'honey',        name: 'Quick Health Pure Honey 500g Squeezejar',           icon: '🍯', price: 700,  size: '500g',  variety: null },
     { id: 'H1KG',  category: 'honey',        name: 'Quick Health Pure Honey 1kg',            icon: '🍯', price: 1300, size: '1kg',   variety: null },
     // Peanut Butter — Smooth
     { id: 'PBS150', category: 'peanut_butter', name: 'Sweetnut Peanut Butter Smooth 150g', icon: '🥜', price: 150,  size: '150g',  variety: 'smooth' },
